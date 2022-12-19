@@ -31,7 +31,6 @@
         "react/require-default-props": 0,
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
-        "prettier/prettier": "error",
         "jsx-a11y/label-has-associated-control": [ "error", {
             "required": {
               "some": [ "nesting", "id"  ]
@@ -41,6 +40,12 @@
             "required": {
               "some": [ "nesting", "id"  ]
             }
-        }]
+        }],
+        "prettier/prettier": [
+            "error",
+            {
+              "endOfLine": "auto"
+            }
+          ]
     }
 }
